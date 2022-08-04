@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://www.naukri.com/registration/createAccount"/>
+  <test name="Test(failed)">
+    <parameter name="URL" value="https://www.naukri.com/registration/createAccount"/>
+    <classes>
+      <class name="org.id.IdCreation">
+        <methods>
+          <include name="password"/>
+          <include name="mobileNumber"/>
+          <include name="mail"/>
+          <include name="Register"/>
+          <include name="name"/>
+          <include name="Exp"/>
+        </methods>
+      </class> <!-- org.id.IdCreation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

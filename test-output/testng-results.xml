@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6829" started-at="2022-08-04T17:47:11Z" finished-at="2022-08-04T17:47:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6829" started-at="2022-08-04T17:47:11Z" finished-at="2022-08-04T17:47:18Z">
+      <class name="org.id.IdCreation">
+        <test-method status="PASS" signature="browserLaunch(java.lang.String)[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="browserLaunch" is-config="true" duration-ms="4114" started-at="2022-08-04T23:17:11Z" finished-at="2022-08-04T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.naukri.com/registration/createAccount]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:15Z" finished-at="2022-08-04T23:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="name(java.lang.String)[pri:1, instance:org.id.IdCreation@4bec1f0c]" name="name" duration-ms="900" started-at="2022-08-04T23:17:15Z" data-provider="name" finished-at="2022-08-04T23:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishnaraj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="1" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="mail(java.lang.String)[pri:2, instance:org.id.IdCreation@4bec1f0c]" name="mail" duration-ms="297" started-at="2022-08-04T23:17:16Z" data-provider="mail" finished-at="2022-08-04T23:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishnaraj98@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="password(java.lang.String)[pri:3, instance:org.id.IdCreation@4bec1f0c]" name="password" duration-ms="184" started-at="2022-08-04T23:17:16Z" data-provider="password" finished-at="2022-08-04T23:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna@25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:16Z" finished-at="2022-08-04T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="mobileNumber(java.lang.String)[pri:4, instance:org.id.IdCreation@4bec1f0c]" name="mobileNumber" duration-ms="170" started-at="2022-08-04T23:17:16Z" data-provider="mobile" finished-at="2022-08-04T23:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8098045686]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNumber -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="1" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="2" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="Exp()[pri:5, instance:org.id.IdCreation@4bec1f0c]" name="Exp" duration-ms="109" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exp -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="Register()[pri:6, instance:org.id.IdCreation@4bec1f0c]" name="Register" duration-ms="85" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="startTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="endTime" is-config="true" duration-ms="0" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="browserquit()[pri:0, instance:org.id.IdCreation@4bec1f0c]" name="browserquit" is-config="true" duration-ms="912" started-at="2022-08-04T23:17:17Z" finished-at="2022-08-04T23:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- org.id.IdCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
